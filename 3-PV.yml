@@ -8,8 +8,8 @@ spec:
   capacity:
     storage: 4Gi
   accessModes: 
-    - ReadwriteOnce
-  persistentvolumeReclaimPolicy: Retain
+    - ReadWriteOnce
+  persistentVolumeReclaimPolicy: Retain
   storageClassName: local-storage
   hostPath:
     path: /opt/mysql
