@@ -1,4 +1,4 @@
-apiVersion: va
+apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
   name: weshopify-db-pvc
@@ -8,5 +8,5 @@ spec:
     - ReadWriteOnce
   storageClassName: local-storage
   resources:
-    requestes: 
+    requests: 
       storage: 4Gi
